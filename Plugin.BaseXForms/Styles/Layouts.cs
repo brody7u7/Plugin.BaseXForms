@@ -3,8 +3,9 @@ namespace Plugin.BaseXForms.Styles
 {
     public static class Layouts
     {
-        public static double IconSizeMedium => 32;
-        public static double IconSizeSmall => 25;
+        public static double IconSizeLarge => 32;
+        public static double IconSizeMediumSmall => 25;
+        public static double IconSizeSmall => 15;
         public static double Margin => 16;
         public static double DoubleMargin => Margin * 2;
         public static double Padding => 20;
