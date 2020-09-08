@@ -13,6 +13,15 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Xamarin.Android Resource.Designer.cs files
+**/*.Android/**/[Rr]esource.[Dd]esigner.cs
+**/*.Droid/**/[Rr]esource.[Dd]esigner.cs
+**/Android/**/[Rr]esource.[Dd]esigner.cs
+**/Droid/**/[Rr]esource.[Dd]esigner.cs
+
+# Xamarin Components
+Components/
+
 # Mono auto generated files
 mono_crash.*
 
@@ -126,6 +135,9 @@ $tf/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
+
+# JustCode is a .NET coding add-in
+.JustCode
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -348,3 +360,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+.DS_Store
